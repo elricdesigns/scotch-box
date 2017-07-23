@@ -1,6 +1,8 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+#ubuntu: sudo apt install nfs-kernel-server
+
 Vagrant.configure("2") do |config|
 
     config.vm.box = "scotch/box"
